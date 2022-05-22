@@ -1,0 +1,44 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fazil vk",
+  "license": "LGPL-3.0",
+  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mu-fazil-vk/whatsapp-bot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "elsa",
+    "api",
+    "unlimited",
+    "automatic",
+    "whatsapp web",
+    "whatsapp api",
+    "Elsa Wa-Bot"
+  ],
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@phaticusthiccy/open-apis": "github:phaticusthiccy/Open-APIs",
+    "axios": "^0.24.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.1.0",
+    "dotenv": "^10.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "google-translate-tts": "^0.4.0-dev",
+    "heroku-client": "^3.1.0",
+    "network-speed": "^2.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "simple-git": "^2.48.0",
+    "serve-index": "^1.9.1",
+    "user-instagram-profile": "^1.0.0",
+    "whatsapp-web.js": "^1.15.3"
+  }
+}

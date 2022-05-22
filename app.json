@@ -1,0 +1,50 @@
+{
+  "name": "whatsapp-bot",
+  "description": "Elsa Wa-Bot project - Makes it easy and fun to use Whatsapp. World’s funniest UserBot made for WhatsApp.",
+  "repository": "https://github.com/mu-fazil-vk/whatsapp-bot",
+  "logo": "https://telegra.ph/file/65b8e02615d6a44c81159.jpg",
+  "keywords": [
+    "whatsbot",
+    "whatsapp-userbot",
+    "whatsapp-bot",
+    "whatsapp-userbot",
+    "whatsapp"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
+    }
+  ],
+  "stack": "container",
+  "env": {
+    "SESSION": {
+      "description": "Session ID. Get it by running server.js",
+      "value": "",
+      "required": true
+    },
+    "AI_CHAT_ENABLED": {
+      "description": "If you ant enable AI chatbot then set value 'true'",
+      "value": "false"
+    },
+    "HEROKU": {
+      "description": "If it is running in Heroku, type true.",
+      "required": true,
+      "value": "true"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku API Key.From https://t.me/herokuapikeyscraper",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku APP Name. Exactly same the above you given.",
+      "required": true
+    },
+    "XTEAM_API": {
+      "description": "X-Team API. More details : https://github.com/mu-fazil-vk/whatsapp-bot/wiki/Create-API-from-X-Team",
+      "required": true
+    }
+  }
+}
